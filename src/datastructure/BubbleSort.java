@@ -8,8 +8,8 @@ public class BubbleSort {
 		// length = 9 최대 8번비교는 해야..
 		int tmp = 0;
 		
-		for(int i=0; i<arr.length; i++){
-			for(int j=0; j<arr.length-1;j++){
+		for(int i=0; i<arr.length-1; i++){
+			for(int j=0; j<arr.length-1-i;j++){
 				if(arr[j]>arr[j+1]){
 					tmp = arr[j+1];
 					arr[j+1] = arr[j];
