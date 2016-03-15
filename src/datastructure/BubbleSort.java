@@ -1,5 +1,7 @@
 package datastructure;
 
+import java.util.Arrays;
+import java.util.Collections;
 
 public class BubbleSort {
 
@@ -18,8 +20,8 @@ public class BubbleSort {
 			}
 		}
 		
-//		Arrays.sort(arr);
-		// sort쓰면 한 번에 가능
+//		Arrays.sort(arr);	// sort쓰면 한 번에 가능
+//		Arrays.sort(arr, Collections.reverseOrder());
 		
 		for (int i : arr) {
 			System.out.print(i+" ");
